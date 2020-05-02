@@ -21,6 +21,7 @@ namespace BikeStoreAPI2_WIP_.Models
         public int BrandID { get; set; }
         public int LocationID { get; set; }
 
+        public virtual Location Location { get; set; }
 
     }
 }

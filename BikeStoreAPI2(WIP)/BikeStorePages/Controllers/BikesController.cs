@@ -14,7 +14,7 @@ namespace BikeRental.MVCUI.Controllers
 {
     public class BikesController : Controller
     {
-        string baseurl = "https://localhost:44369/api/";
+        string baseurl = "https://localhost:44311/api/";
 
         // GET: Bikes
         public async Task<IActionResult> Index()
@@ -136,15 +136,15 @@ namespace BikeRental.MVCUI.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Type,Size,Gender,Brand,LocationId")] Bikes bicycle)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Type,Size,Gender,Brand,LocationId")] Bikes bikes)
         {
             TempData["Message"] = string.Empty;
-            if (bicycle.Id > 0 || bicycle != null)
+            if (bikes.BikeID > 0 || bikes != null)
             {
                 using (var httpClient = new HttpClient())
                 {
                     httpClient.BaseAddress = new Uri($"{baseurl}Bicycles");
-                    HttpResponseMessage res = await httpClient.PutAsJsonAsync($"Bicycles/{bicycle.BikeID}", bicycle);
+                    HttpResponseMessage res = await httpClient.PutAsJsonAsync($"Bicycles/{bikes.BikeID}", bikes);
 
                     if (res.IsSuccessStatusCode)
                     {
@@ -152,7 +152,7 @@ namespace BikeRental.MVCUI.Controllers
                         return RedirectToAction("Index");
                     }
                     TempData["Message"] = $"Bicycle has not been saved.";
-                    return View(bicycle);
+                    return View(bikes);
                 }
             }
             List<Location> locationList = new List<Location>();
@@ -164,8 +164,8 @@ namespace BikeRental.MVCUI.Controllers
                     locationList = JsonConvert.DeserializeObject<List<Location>>(apiResponse);
                 }
             }
-            ViewData["LocationId"] = new SelectList(locationList, "Id", "City", bicycle.LocationID);
-            return View(bicycle);
+            ViewData["LocationId"] = new SelectList(locationList, "Id", "City", bikes.LocationID);
+            return View(bikes);
         }
 
         // GET: Bicycles/Delete/5
@@ -175,13 +175,13 @@ namespace BikeRental.MVCUI.Controllers
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri(baseurl);
-                HttpResponseMessage res = await client.DeleteAsync($"Bicycles/{id}");
+                HttpResponseMessage res = await client.DeleteAsync($"Bikes/{id}");
                 if (res.IsSuccessStatusCode)
                 {
-                    TempData["Message"] = "Bicycle deleted.";
+                    TempData["Message"] = "Bike deleted.";
                     return RedirectToAction("Index");
                 }
-                TempData["Message"] = "Bicycle not deleted.";
+                TempData["Message"] = "Bike not deleted.";
                 return RedirectToAction("Index");
             }
         }
