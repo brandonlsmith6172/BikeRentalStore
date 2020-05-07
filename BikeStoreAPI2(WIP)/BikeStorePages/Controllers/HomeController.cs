@@ -22,7 +22,14 @@ namespace BikeRental.MVCUI.Controllers
         {
             return View();
         }
-
+        public IActionResult Login()
+        {
+            return Index();
+        }
+        public IActionResult Registration()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

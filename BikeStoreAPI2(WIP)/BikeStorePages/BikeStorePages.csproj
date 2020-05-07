@@ -19,4 +19,8 @@
     <ProjectReference Include="..\BikeStoreAPI2(WIP)\BikeStoreAPI2.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Accessories\" />
+  </ItemGroup>
+
 </Project>

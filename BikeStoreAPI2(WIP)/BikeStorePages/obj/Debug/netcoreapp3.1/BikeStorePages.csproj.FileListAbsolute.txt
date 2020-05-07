@@ -350,3 +350,8 @@ C:\Users\deyas\Documents\GitHub\BikeRentalStore\BikeStoreAPI2(WIP)\BikeStorePage
 C:\Users\deyas\Documents\GitHub\BikeRentalStore\BikeStoreAPI2(WIP)\BikeStorePages\obj\Debug\netcoreapp3.1\Razor\Views\Locations\Details.cshtml.g.cs
 C:\Users\deyas\Documents\GitHub\BikeRentalStore\BikeStoreAPI2(WIP)\BikeStorePages\obj\Debug\netcoreapp3.1\Razor\Views\Locations\Edit.cshtml.g.cs
 C:\Users\deyas\Documents\GitHub\BikeRentalStore\BikeStoreAPI2(WIP)\BikeStorePages\obj\Debug\netcoreapp3.1\Razor\Views\Locations\Index.cshtml.g.cs
+C:\Users\deyas\Documents\GitHub\BikeRentalStore\BikeStoreAPI2(WIP)\BikeStorePages\obj\Debug\netcoreapp3.1\Razor\Views\Confirmation.cshtml.g.cs
+C:\Users\deyas\Documents\GitHub\BikeRentalStore\BikeStoreAPI2(WIP)\BikeStorePages\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\deyas\Documents\GitHub\BikeRentalStore\BikeStoreAPI2(WIP)\BikeStorePages\obj\Debug\netcoreapp3.1\Razor\Views\Home\Registration.cshtml.g.cs
+C:\Users\deyas\Documents\GitHub\BikeRentalStore\BikeStoreAPI2(WIP)\BikeStorePages\obj\Debug\netcoreapp3.1\Razor\Views\Reservation.cshtml.g.cs
+C:\Users\deyas\Documents\GitHub\BikeRentalStore\BikeStoreAPI2(WIP)\BikeStorePages\obj\Debug\netcoreapp3.1\Razor\Views\Home\Products.cshtml.g.cs
