@@ -6,18 +6,23 @@
 <h1>@ViewData["Title"]</h1>
 <body class="login-pg">
     <p>Please enter your UserName and password. If you do not have an account, please click register.</p>
-    <label for="UserName">UserName:</label>
-    <br>
-    <input type="text" id="UserName" name="UserName">
-    <br>
+
+    <label for="UserName">Username:</label>
+
+    <div class="form-group">
+        <input type="text" id="UserName" name="Username">
+    </div>
+
     <label for="PassWord">Password:</label>
-    <br>
-    <input type="text" id="PassWord" name="Password">
-    <br />
+
+    <div class="form-group">
+        <input type="text" id="PassWord" name="Password">
+    </div>
 
     @*Need data validation*@
-
-    <input type="submit" value="Submit">
+    <div class="form-group">
+        <input class="btn btn-primary" type="submit" value="Submit">
+    </div>
     @*IF data validation is true*@
     @*Go to login successful, redirecting to roster page*@
     @*IF data validation is false*@
@@ -25,7 +30,7 @@
 
     @*Login failed, please try again*@
 
-    <btn class="nav-item">
-        <a class="nav-link text-dark" asp-controller="Home" asp-action="Registration">Register</a>
-    </btn>
+    <div class="form-group">
+        <a class="btn btn-primary" asp-controller="Home" asp-action="Registration">Register</a>
+    </div>
 </body>

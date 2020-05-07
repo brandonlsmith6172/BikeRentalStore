@@ -8758,25 +8758,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\deyas\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\chjay\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\deyas\\Documents\\GitHub\\BikeRentalStore\\BikeStoreAPI2(WIP)\\BikeStorePages\\BikeStorePages.csproj",
+      "projectUniqueName": "C:\\Users\\chjay\\Documents\\GitHub\\BikeRentalStore\\BikeStoreAPI2(WIP)\\BikeStorePages\\BikeStorePages.csproj",
       "projectName": "BikeStorePages",
-      "projectPath": "C:\\Users\\deyas\\Documents\\GitHub\\BikeRentalStore\\BikeStoreAPI2(WIP)\\BikeStorePages\\BikeStorePages.csproj",
-      "packagesPath": "C:\\Users\\deyas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\deyas\\Documents\\GitHub\\BikeRentalStore\\BikeStoreAPI2(WIP)\\BikeStorePages\\obj\\",
+      "projectPath": "C:\\Users\\chjay\\Documents\\GitHub\\BikeRentalStore\\BikeStoreAPI2(WIP)\\BikeStorePages\\BikeStorePages.csproj",
+      "packagesPath": "C:\\Users\\chjay\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\chjay\\Documents\\GitHub\\BikeRentalStore\\BikeStoreAPI2(WIP)\\BikeStorePages\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\deyas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chjay\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -8790,8 +8788,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\deyas\\Documents\\GitHub\\BikeRentalStore\\BikeStoreAPI2(WIP)\\BikeStoreAPI2(WIP)\\BikeStoreAPI2.csproj": {
-              "projectPath": "C:\\Users\\deyas\\Documents\\GitHub\\BikeRentalStore\\BikeStoreAPI2(WIP)\\BikeStoreAPI2(WIP)\\BikeStoreAPI2.csproj"
+            "C:\\Users\\chjay\\Documents\\GitHub\\BikeRentalStore\\BikeStoreAPI2(WIP)\\BikeStoreAPI2(WIP)\\BikeStoreAPI2.csproj": {
+              "projectPath": "C:\\Users\\chjay\\Documents\\GitHub\\BikeRentalStore\\BikeStoreAPI2(WIP)\\BikeStoreAPI2(WIP)\\BikeStoreAPI2.csproj"
             }
           }
         }
@@ -8846,7 +8844,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
